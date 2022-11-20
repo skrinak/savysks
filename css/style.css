@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial','Helvetica', sans-serif;
+    color: #444444;
+    font-size: 9pt;
+    background-color: #FAFAFA;
+}
+
+h1 { 
+    font-family: 'Arial','Helvetica', sans-serif;
+    font-size: 48pt; 
+}
+
+.inline-block {
+    display: inline-block;
+ }
+
+ .center {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+
+  }
+
+ .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
