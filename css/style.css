@@ -1,13 +1,19 @@
 body {
     font-family: 'Arial','Helvetica', sans-serif;
     color: #444444;
-    font-size: 9pt;
+    font-size: 12pt;
     background-color: #FAFAFA;
 }
 
 h1 { 
     font-family: 'Arial','Helvetica', sans-serif;
     font-size: 48pt; 
+}
+
+td {
+    vertical-align: top;
+    padding: 15px;
+    height: "400px";
 }
 
 .inline-block {
@@ -19,7 +25,7 @@ h1 {
     border: 3px solid green;
     text-align: center;
 
-  }
+}
 
  .right {
     position: absolute;
@@ -27,4 +33,17 @@ h1 {
     width: 300px;
     border: 3px solid #73AD21;
     padding: 10px;
-  }
+}
+
+.project {
+    width: 100%;
+}
+
+.project-art {
+    vertical-align: top;
+}
+
+.project-description {
+    vertical-align: top;
+}
+
